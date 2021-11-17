@@ -35,7 +35,7 @@ body {
     margin: auto;
     padding: 50px;
 }
-x
+
 main {
     background-color:rgb(230, 220, 220);
 }
@@ -92,9 +92,24 @@ a:active {
   }
 
   .inline {
-      display:inline-block;
+      display: inline-block;
   }
 
   .inline2 {
     display: inline-block;
   }
+
+ h2 {
+     position: relative;
+     right: 10px;
+ }
+
+ .hire-me {
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     background-color: red;
+     color: white;
+     border-radius: 4px;
+    
+ }
