@@ -26,7 +26,7 @@ body {
 
 .name {
     background-color: aquamarine;
-    padding: 3rem; 1rem;
+    padding: 3rem 1rem;
     text-align: center;
     border-bottom: 5px solid black;
     position:sticky;
@@ -63,7 +63,7 @@ a:active {
 }
 
 .link-oben {
-    padding: 0,25rem; 0,5rem;
+    padding: 0.25rem 0.5rem;
     color:steelblue;
 }
 
@@ -83,17 +83,14 @@ a:active {
 }
 
 .other > * + * {
-    border-top: 3px solid steelblue;
+    border-top: 0.2rem solid steelblue;
+    margin-top: 3rem;
 }
 
 ::selection {
     background-color: aquamarine;
     color: steelblue;
 }
-
-.other > * + * {
-    margin-top: 3rem;
-  }
 
   .inline {
       display: inline-block;
@@ -105,7 +102,7 @@ a:active {
 
  h2 {
      position: relative;
-     right: 0,6rem;
+     right: 0.6rem;
  }
 
  .hire-me {
@@ -114,7 +111,7 @@ a:active {
      top: 1rem;
      background-color: red;
      color: white;
-     border-radius: 5px;
+     border-radius: 0.3rem;
      }
 
 
