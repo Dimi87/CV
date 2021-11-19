@@ -12,6 +12,17 @@ html {
     font-size: 16px;
 }
 
+@media screen and (min-width: 768px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  
+@media screen and (min-width: 992px) {
+    html {
+      font-size: 20px;
+    }
+
 h1,h2,h3 {
     font-family: "Oswald", sans-serif;
 }
@@ -112,6 +123,23 @@ a:active {
      background-color: red;
      color: white;
      border-radius: 0.3rem;
+     border-width: 5px;
      }
 
+@media print {
+.hire-me {
+    display: none;
+   }
+}
 
+@media screen and (min-width: 992px) {
+.hire-me {
+    position: fixed;
+   }
+}
+
+.navigation {
+    display: none;
+    }
+}
+        
