@@ -12,17 +12,6 @@ html {
     font-size: 16px;
 }
 
-@media screen and (min-width: 768px) {
-    html {
-      font-size: 18px;
-    }
-  }
-  
-@media screen and (min-width: 992px) {
-    html {
-      font-size: 20px;
-    }
-
 h1,h2,h3 {
     font-family: "Oswald", sans-serif;
 }
@@ -36,7 +25,7 @@ body {
 /* Specific Stylings */
 
 .name {
-    background-color: aquamarine;
+    background-image: linear-gradient(235deg,aquamarine, white);
     padding: 3rem 1rem;
     text-align: center;
     border-bottom: 5px solid black;
@@ -126,20 +115,17 @@ a:active {
      border-width: 5px;
      }
 
-@media print {
-.hire-me {
-    display: none;
-   }
-}
 
-@media screen and (min-width: 992px) {
-.hire-me {
-    position: fixed;
-   }
-}
 
-.navigation {
-    display: none;
-    }
-}
         
+ .footer {
+    border-top: solid black;
+    background-color: aquamarine;
+    background-image: linear-gradient(235deg,aquamarine, white);
+    background-image: linear-gradient(235deg,aquamarine, white);
+    height: 40px;
+}
+
+.footer-text {
+    text-align: center;  
+}
